@@ -1,0 +1,128 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-top: 0.1px;
+}
+
+nav {
+    height: 12vh;
+    width: 100%;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 40px;
+}
+
+nav h2 {
+    width: 20%;
+    height: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #000;
+}
+
+nav h2:nth-child(1) {
+    width: 20%;
+    border: none;
+    font: 700;
+    font-size: 2.7vw;
+    margin-left: 20px;
+    letter-spacing: -2px;
+    font-family: monument;
+}
+
+nav h2:nth-child(4) {
+    width: 27%;
+
+}
+
+nav h2:last-child {
+    border: none;
+    margin-right: 20px;
+    width: 10%;
+}
+
+#center {
+    height: 80%;
+    width: 100%;
+}
+
+#center #content {
+    height: 75vh;
+    width: 92%;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: red;
+    position: relative;
+}
+
+#center #content video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#center .overlay {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#center .overlay .over1 {
+    height: 60%;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+}
+
+#center .overlay .over1 h1 {
+    font-family: monument;
+    font-size: 3vw;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -1px;
+}
+#center .overlay .over1 h2 {
+    height: 20px;
+    width: 20px;
+    padding: 30px;
+    border: 1px solid #fff;
+    border-right: 4px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+}
+#center .overlay .over2{
+    height: 28%;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+#center .overlay .over2 h4{
+   font-size: 20px ; 
+   font-weight: 500;
+   color: #fff;
+}
+#center .overlay .over2 img{
+   height: 40px;
+   width: 50px;
+}

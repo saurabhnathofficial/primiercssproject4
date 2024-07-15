@@ -65,8 +65,9 @@ nav h2:last-child {
     width: 92%;
     margin: auto;
     margin-top: 5vh;
-    background-color: red;
+    /* background-color: red; */
     position: relative;
+    
 }
 
 #center #content video {
@@ -125,4 +126,131 @@ nav h2:last-child {
 #center .overlay .over2 img{
    height: 40px;
    width: 50px;
+}
+
+#scroll{
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden ; 
+    
+}
+.elem{
+    height: 100%;
+    width: 100%;
+    padding: 2.4vw;
+    /* background-color: rebeccapurple; */
+    display: inline-block;
+    animation-name: animetion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+#scroll .elem img{
+    /* display: none; */
+    height: 14.5vw;
+    object-fit: cover;
+    object-position: 30% 30%;
+    margin: 2.8vh;
+    width: 14.5%;
+    border-radius: 50%;
+}
+@keyframes animetion {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+#alphabate{
+    height: 12vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+#alphabate h3{
+   font-size: 2vw;
+   font-style: italic;
+   font-weight: 500;
+   border-bottom: 2px solid black;
+   margin-right: 1.2vw;
+}
+#alphabate h5{
+   font-size: 1.2vw;
+   font-weight: 100;
+   margin: 0vw .4vw;
+   border-radius: 50% ;
+   font-style: italic;
+   /* background-color: yellow; */
+   padding: .6vw 1vw;
+   border: 2px solid #00000000;
+}
+#alphabate h5:hover{
+   border: 2px solid #000000;
+   transition: all ease 0.2s;
+}
+
+#blog{
+    height: 100vh;
+    width: 92%;
+    margin: auto;
+    margin-top: 10vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#blog .left{
+    height: 100%;
+    width: 50%;
+}
+#blog .left img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    /* object-position: center; */
+}
+#blog .left h2{
+    font-size: 1.8vw;
+    font-family:monument;
+    margin-top: 2%;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+#blog .right{
+    height: 100%;
+    width: 35%;
+}
+#blog .right img{
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+#blog .right .textbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 0vw;
+}
+#blog .right .textbox h2{
+    width: 80%;
+    font-size: 22px;
+   margin-right: 15%;
+}
+#blog .right .textbox p{
+    font-size: 1vw;
+    /* font-size: 18px; */
+    font-weight: 600;
+    width: 90%;
 }

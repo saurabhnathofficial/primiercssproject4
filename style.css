@@ -1,4 +1,4 @@
- * {
+* {
     margin: 0%;
     padding: 0%;
     font-family: monospace;
@@ -44,7 +44,7 @@ nav h2:nth-child(1) {
     border: none;
     font: 700;
     font-size: 2.7vw;
-    margin-left: 20px;
+    margin-left: 1.5vw;
     letter-spacing: -2px;
     position: relative;
     font-family: monument;
@@ -702,7 +702,7 @@ nav h2:last-child {
         margin-top: 20px;
         padding: 0px 1vh;
     }
- 
+
     nav h2 {
         display: none;
     }
@@ -720,7 +720,6 @@ nav h2:last-child {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0;
     }
 
     nav h2:nth-child(1)::after {
@@ -772,31 +771,29 @@ nav h2:last-child {
     }
 
     #scroll {
-        height: 15%;
-        margin: 3vh 0vh;
-        margin-bottom: 0;
+        height: 17vh;
+        margin: 0 0%;
+        /* margin-bottom: 0; */
     }
-
     .elem {
-        height: 100%;
-        width: 100%;
-        padding: 2.5vw;
+        height: 60%;
+        width: 126%;
+        /* padding: 2.5vw; */
         margin-top: 2vh;
-        margin-left: 8vw;
+        margin-left: 0vw;
     }
 
     #scroll .elem img {
-        margin: 1.5vw;
-        height: 11vh;
-        width: 11vh;
+        margin: 0vw;
+        height: 20vw;
+        width: 20vw;
     }
 
 
     #alphabate {
         height: 4vh;
-        margin-top: 4.8vh;
-        margin-bottom: 4.8vh;
-        }
+       margin: 10% 0;
+    }
 
     #alphabate h3 {
         font-size: 3.2vw;
@@ -859,7 +856,7 @@ nav h2:last-child {
     #blog2 {
         height: 50vh;
         /* background-color: red; */
-        margin-top: 3vh;
+        margin-top: 10%;
         flex-direction: column;
         margin-bottom: 0vh;
     }
@@ -875,11 +872,13 @@ nav h2:last-child {
     }
 
     .blog-left .circle-text :nth-child(1) {
-        left: 41%;
+        left: 49%;
+        transform: translate(-49%, -1%);
         position: absolute;
         font-size: 6vh;
         top: 25%;
     }
+
     .blog-left .circle-text :nth-child(2) {
         height: 65%;
         position: absolute;
@@ -968,9 +967,10 @@ nav h2:last-child {
     }
 
     #movie-shot {
-        height: 60%;
+        height: 70%;
         flex-direction: column;
-        margin-bottom: 10vh;
+        margin-bottom: 10%;
+        margin-top: 10%;
     }
 
     #movie-shot img {
@@ -1012,6 +1012,10 @@ nav h2:last-child {
         object-position: 20% 20%;
     }
 
+    #banner{
+        height: 30%;
+    }
+
     #title-scroll {
         margin: 4vh 0;
     }
@@ -1045,17 +1049,17 @@ nav h2:last-child {
     #banner2 .part2 .text h2 {
         font-size: 2.7vw;
         width: 90%;
-        margin: 1vh;
+        margin: 1vw;
     }
 
     #banner2 .part2 .text p {
-        width: 90%;
-        font-size: 2vw;
-        margin: 1vh 0;
+        width: 100%;
+        font-size: 1.8vw;
+        margin: 1vw 0;
     }
 
     #footer {
-        margin-top: 5vh;
+        margin-top: 10%;
         height: 15%;
     }
 
@@ -1080,7 +1084,7 @@ nav h2:last-child {
 
         top: 10%;
         font-weight: 500;
-        font-size: 2vh;
+        font-size: 4vw;
         color: #000000;
         right: 2%;
 
